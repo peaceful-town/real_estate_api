@@ -3,7 +3,7 @@ API_key_dict = {}
 def get_api_key(api_key_id):
     """This code was written on 10/25/2020 and is used to pull my API keys from the API_Keys.csv without directly putting my API key into my script. """
 
-    with open('C:/Users/Paxton/Documents/pax_scripts/API_Module/API_Keys.csv') as api_file:
+    with open('C:/Users/[REDACTED]/Documents/pax_scripts/API_Module/API_Keys.csv') as api_file:
         i = 0
         api_reader = csv.reader(api_file, delimiter=',')#, fieldnames='API','API Key')
         next(api_reader)
@@ -22,5 +22,4 @@ def get_api_key(api_key_id):
       print('Cannot map key. Please verify if file exists, and that key is saved to file. Please see list of APIs below. ')
       print(api_key_id_list)
       return
-# print(get_api_key('robinhood'))
 # get_api_key(Realtor)
