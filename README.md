@@ -1,4 +1,3 @@
-- 👋 Hi, I’m @peaceful-town or Paxton
+- 👋 Hi, I’m @peaceful-town
 - 👀 I’m interested in programming, automation, and cool tech
-- 🌱 I’m currently learning python, and network automation
-- 📫 You can reach me by sending me an email at paxtondfreeman@gmail.com
+- 🌱 I’m currently learning python, and Network Automation
